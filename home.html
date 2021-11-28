@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Donate</title>
+
+    <link rel="shortcut icon" href="Assets/favicon-32x32.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+    body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        color: #5a5a5a;
+    }
+    
+    .carousel {
+        margin-bottom: 4rem;
+    }
+    
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+    
+    .carousel-item {
+        height: 32rem;
+    }
+    
+    .carousel-item>img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+    }
+    
+    .marketing .col-lg-4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .marketing h2 {
+        font-weight: 400;
+    }
+    
+    .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+    }
+    
+    .featurette-divider {
+        margin: 5rem 0;
+    }
+    
+    .featurette-heading {
+        font-weight: 300;
+        line-height: 1;
+        /* rtl:remove */
+        letter-spacing: -.05rem;
+    }
+    
+    @media (min-width: 40em) {
+        .carousel-caption p {
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+        .featurette-heading {
+            font-size: 50px;
+        }
+    }
+    
+    @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 7rem;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img src="Assets/Icon.png">
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#about" class="nav-link px-2 link-dark">About</a></li>
+                <li><a href="#mission" class="nav-link px-2 link-dark">Mission</a></li>
+                <li><a href="#vision" class="nav-link px-2 link-dark">Vision</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Contact Us</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Sign-in</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="px-4 pt-4 text-center">
+        <h1 class="display-4 fw-bold">We Donate</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Donate now</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">How can I donate?</button>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="Assets/image.png" class="img-fluid rounded-3 mb-4" alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div class="container marketing">
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="about">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">About</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="Assets/about.png" class="featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="mission">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Mission</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="Assets/mission.png" class="featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="vision">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Vision</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="Assets/vision.png" class="featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    </div>
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2016–2021 Helping Hands Pinas &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+</body>
+
+</html>
